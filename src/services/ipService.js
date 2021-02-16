@@ -19,7 +19,7 @@ async function getUserLocation() {
           lat: res.latitude,
           lon: res.longitude,
           city: res.city,
-          country_name: res.country,
+          country: res.country_name,
         };
         resolve(user);
       }

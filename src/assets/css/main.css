@@ -1,4 +1,30 @@
+header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-container {
   display: grid;
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 20px 1fr 20px;
+}
+.main-container * {
+  grid-column: 2;
+}
+
+.map-container {
+  /* display: grid; */
+  height: 600px;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  /* grid-template-columns: 100px 1fr 100px; */
+}
+
+footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -19,11 +19,11 @@ class _GoogleMap extends React.Component {
   }
   render() {
     return (
-      <div className="map-container main-container">
+      <div className="map-container">
         <Map
           className="map"
           google={this.props.google}
-          zoom={20}
+          zoom={14}
           style={mapStyles}
           initialCenter={{
             lat: this.state.lat,
@@ -49,5 +49,5 @@ class _GoogleMap extends React.Component {
 }
 
 export const GoogleMap = GoogleApiWrapper({
-  apiKey: "AIzaSyBFWRIVwTbjdTMRJvaO_vMK09AwvT09cHM",
+  apiKey: "AIzaSyAoa_fPXN4AWoy3vu8k-Vai4quO_ah8DLg",
 })(_GoogleMap);

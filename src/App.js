@@ -4,9 +4,11 @@ import { GoogleMap } from "./cmps/GoogleMap.jsx";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">React Google Maps</header>
-      <main>
-        <GoogleMap/>
+      <header className="App-header">
+        <h1>React Google Maps</h1>
+      </header>
+      <main className="main-container">
+        <GoogleMap />
       </main>
       <footer>Alex Guberman</footer>
     </div>
