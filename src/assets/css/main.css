@@ -1,9 +1,11 @@
 header {
   height: 60px;
   width: 100%;
+  background-color: #1b81c4;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .map-container {
@@ -31,6 +33,10 @@ footer {
 }
 
 @media (max-width: 376px) {
+  header {
+    margin-bottom: 10px;
+  }
+
   .map-container {
     height: 300px;
     width: 350px;
