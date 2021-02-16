@@ -4,7 +4,7 @@ import { ipService } from "../services/ipService";
 
 const mapStyles = {
   width: "100%",
-  height: "100%",
+  height: "80%",
 };
 
 class _GoogleMap extends React.Component {
@@ -43,6 +43,13 @@ class _GoogleMap extends React.Component {
             </div>
           </InfoWindow>
         </Map>
+
+        {this.state.country && this.state.city && (
+          <div className="users-data">
+            <h3>Your country: {this.state.country}</h3>
+            <h4>Your city: {this.state.city}</h4>
+          </div>
+        )}
       </div>
     );
   }

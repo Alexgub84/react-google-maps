@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>React Google Maps</h1>
       </header>
-      <main className="main-container">
+      <main>
         <GoogleMap />
       </main>
       <footer>Alex Guberman</footer>
